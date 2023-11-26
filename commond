@@ -1,0 +1,9 @@
+# create staging barnch
+git checkout -b staging
+
+#make cahnges and commit
+git add .
+git commit -m "all chages for staging"
+
+# push staging branch to remote
+git push -u origin statging
